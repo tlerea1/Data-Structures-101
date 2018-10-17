@@ -57,7 +57,7 @@ System.out.println(number * 2);
 **One last thing** and then we will move on to the assignment: In order to use a Scanner in your program it must first be imported. This is done by writing the following line at the top of the file:
 
 ```java
-import java.util.Scanner
+import java.util.Scanner;
 ```
 We will go into more detail later into what that means.
 
