@@ -169,6 +169,11 @@ If the user chooses this option the program should stop.
 
 ### Simple enter and view a grade
 ```
+Welcome to the grade storage system.
+What is the maximum number of students in the class?
+```
+`10`
+```
 What would you like to do?
 1. Input a new grade
 2. Change an existing grade
@@ -204,6 +209,11 @@ What would you like to do?
 `4`
 
 ### Try to add invalid grade
+```
+Welcome to the grade storage system.
+What is the maximum number of students in the class?
+```
+`10`
 ```
 What would you like to do?
 1. Input a new grade
