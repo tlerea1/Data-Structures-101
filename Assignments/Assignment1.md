@@ -1,12 +1,14 @@
-Lerea Data Structures 101
-Homework 1
-Grade Storage System
+# Lerea Data Structures 101
+# Homework 1
+# Grade Storage System
 
 Before we get started with this assignment, like all good assignments you will learn something new! In our first session we talked about how to produce output, or print, in programs. Printing is done in one of two ways:
 
-1. `System.out.print(<item you want printed>)`
+``` Java
+System.out.print(<item you want printed>)
 
-2. `System.out.println(<item you want printed>)`
+System.out.println(<item you want printed>)
+```
 
 As we talked about the only difference between the two functions shown about is that the latter prints a newline after the item printed. This will result in the next item printed being on a separate line.
 
