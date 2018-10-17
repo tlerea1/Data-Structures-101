@@ -1,8 +1,8 @@
 # Assignment 1 - Grade Storage System
 
 ## Table of Contents
-1. [Background](#Background)
-2. [Assignment](#Assignment)
+1. [Background](#background)
+2. [Assignment](#assignment)
 
 ## Background
 
