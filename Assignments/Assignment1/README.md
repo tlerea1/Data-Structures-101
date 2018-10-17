@@ -65,7 +65,12 @@ We will go into more detail later into what that means.
 
 I hope that lesson was informative because it will be needed to complete this first assignment! For this first excusion into the wonderful world of JAVA we will build a grades storage and retrieval system. This system will enable its user to input all students in a given class, input their grades, and change their grades as needed.
 
-First the user should be prompted with a question: 
+First the user should be prompted with a question:
+```
+Welcome to the grade storage system.
+What is the maximum number of students in the class?
+```
+Once this question is answered the user will be brought to the main menu:
 ```
 What would you like to do?
 1. Input a new grade
@@ -103,6 +108,11 @@ Invalid grade, please try again.
 If the user inputs a name that has already been entered they should be met with the following error message before returning to the main prompt:
 ```
 This student already has a grade, please try again.
+```
+
+If there are already the maximum number of students entered the user should be met with the following error message:
+```
+There are too many students! Please no longer use option 1.
 ```
 
 Otherwise the program should output a the following success message and then return to the original menu.
