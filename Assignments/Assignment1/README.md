@@ -63,7 +63,7 @@ We will go into more detail later into what that means.
 
 ## Assignment
 
-I hope that lesson was informative because it will be needed to complete this first assignment! For this first excusion into the wonderful world of JAVA we will build a grades storage and retrieval system. This system will enable its user to input all students in a given class, input their grades, and change their grades as needed.
+I hope that lesson was informative because it will be needed to complete this first assignment! For this first excursion into the wonderful world of JAVA we will build a grades storage and retrieval system. This system will enable its user to input all students in a given class, input their grades, and change their grades as needed.
 
 First the user should be prompted with a question:
 ```
@@ -83,7 +83,7 @@ Now, lets tackle each one of these options one at a time:
 
 ### Input a new grade
 
-If the user chooses this option they should be prompted for the user's name and grade as follows:
+If the user chooses this option they should be prompted for the student's name and grade as follows:
 ```
 What is the students name and grade?
 ```
@@ -115,7 +115,7 @@ If there are already the maximum number of students entered the user should be m
 There are too many students! Please no longer use option 1.
 ```
 
-Otherwise the program should output a the following success message and then return to the original menu.
+Otherwise the program should output the following success message and then return to the original menu.
 ```
 Grade added
 ```
@@ -137,14 +137,14 @@ As with inputting a new grade, if the letter grade provided is invalid the user 
 This student does not yet have a grade, please use option 1 to enter a new grade.
 ```
 
-Otherwise the program should output a the following success message and then return to the original menu.
+Otherwise the program should output the following success message and then return to the original menu.
 ```
 Grade Changed
 ```
 
 ### View an existing grade
 
-If the user chooses this option they should be prompted for the users name as follows:
+If the user chooses this option they should be prompted for the students name as follows:
 ```
 What is the students name?
 ```
@@ -159,7 +159,7 @@ If the name provided does not yet have a grade the user should be met with the f
 This student does not yet have a grade, please use option 1 to enter a new grade.
 ```
 
-If the user already has a grade the program should print that students grade as entered using option 1 or updated using option 2 and then return to the main menu.
+If the student already has a grade the program should print that students grade as entered using option 1 or updated using option 2 and then return to the main menu.
 
 ### Exit
 
